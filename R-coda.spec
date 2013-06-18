@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.14_6
-Release:          1
+Release:          2
 Summary:          Output analysis and diagnostics for MCMC
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
