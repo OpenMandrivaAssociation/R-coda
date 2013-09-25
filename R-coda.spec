@@ -2,13 +2,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          0.14_6
-Release:          2
+Version:          0.16.1
+Release:          1
 Summary:          Output analysis and diagnostics for MCMC
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.14-6.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/coda_0.16-1.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 Requires:         R-lattice 
@@ -49,4 +49,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 775967
 - Import R-coda
 - Import R-coda
+
 
